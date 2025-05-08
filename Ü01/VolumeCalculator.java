@@ -6,11 +6,13 @@ public class VolumeCalculator {
         Scanner input = new Scanner(System.in);
 
         //Nimmt 3 Eingaben des benutzers entgegen
-        System.out.print("Gib die erste Seitenlänge ein: ");
+        System.out.print("Gib die erste Seitenlänge ein (m) : ");
         a = (float) input.nextFloat();
-        System.out.print("Gib die zweite Seitenlänge ein: ");
+        System.out.print("Gib die zweite Seitenlänge ein (m) : ");
         b = (float) input.nextFloat();
-        System.out.print("Gib die dritte Seitenlänge ein: ");
+        System.out.print("Gib die dritte Seitenlänge ein (m) : ");
+        
+
         c = (float) input.nextFloat();
         input.close();
 

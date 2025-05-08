@@ -6,6 +6,6 @@ public class GanzeZahlen {
             summe += a; //summe = summe + a
         }
 
-        System.out.println(summe); //Ausgabe summe
+        System.out.println("Die Summe der ersten 10 ganzen Zahlen ab 0 : " + summe); //Ausgabe summe
     }
 }

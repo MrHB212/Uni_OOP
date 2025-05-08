@@ -6,7 +6,8 @@ public class Durchschnitt {
         float z = 5.2F;
         
         float ergebnis = berechne (x,y,z); //Ruft die Methode auf ind speichert den zurückgegebenen Wert in ergebnis
-        System.out.println(ergebnis); //Gibt das Ergebnis aus
+        System.out.println("Der Durchschnitt beträgt: " + ergebnis); //Gibt das Ergebnis aus
+        System.out.println("Verwendet wurden die Zahlen : " + x + ", " + y + ", " + z);
     }
     
     private static float berechne(float a, float b , float c){
