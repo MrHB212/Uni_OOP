@@ -9,14 +9,15 @@ public static void main(String[] args) {
     hof.add("Hühner");
     hof.add("Tiger");
 
+    // Gibt ArrayListe aus
     for(String ausgabe: hof){
         System.out.println(ausgabe);
-        System.out.println();
     }
+    System.out.println();
 
-    if(hof.contains("Tiger")) hof.remove("Tiger");
+    if(hof.contains("Tiger")) hof.remove("Tiger"); // Entfernt Tiger aus der Liste falls vorhanden
     
-
+    // Gibt ArrayListe aus
     for(String ausgabe: hof){
         System.out.println(ausgabe);
     }
@@ -24,8 +25,3 @@ public static void main(String[] args) {
 
     }
 }
-
-/*
-Array: Hat eine feste größe und ist schneller, länge muss bekannt sein
-ArrayList: Dynamische länge aber langsamer, einfaches hinzufügen
- */
