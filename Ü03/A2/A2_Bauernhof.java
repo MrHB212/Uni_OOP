@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class bauernhof{
+public class A2_Bauernhof{
 
 public static void main(String[] args) {
     ArrayList<String> hof = new ArrayList<>();
