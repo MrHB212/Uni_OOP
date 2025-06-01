@@ -10,8 +10,11 @@ public class tryCatch {
             zahlen[index] = 5;
         } catch (Exception e) {
             System.out.println("Index außerhalb des Arrays");
-            System.out.println(e); //Gibt Fehlermeldung aus
+            System.out.println("Fehler: " + e); //Gibt Fehlermeldung aus
         }
+        System.out.println();
+        System.out.println("Try: Versucht den Code (mit potenziellen Fehlerquellen) auszuführen.");
+        System.out.println("Catch: Fängt Fehler ab und dient zur Fehlerbehandlung. Speichert auch die Fehlermeldung.");
     }
     
 }

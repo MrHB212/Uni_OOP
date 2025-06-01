@@ -4,7 +4,7 @@ class staticBsp {
     //Falls eine Methode mit static bezeichnet wird, gehört sie der Klasse und kann ohne Objekt aufgerufen werden
 
     int a = 0; 
-    static int b = 0; 
+    static int b = 5; 
     public static void main(String[] args){
         staticBsp T1 = new staticBsp();
         staticBsp T2 = new staticBsp();
@@ -31,6 +31,12 @@ class staticBsp {
         System.out.println("T1.b: " + T1.b);
         System.out.println("T2.a: " + T2.a);
         System.out.println("T2.b: " + T2.b);
+
+        System.out.println();
+        System.out.println("Static Variable: Gleich für alle Objekte der Klasse");
+        System.out.println("Static Methode: Kann ohne Objekt aufgerufen werden, kann aber nur auf static Variablen zugreifen.");
+
+
 
         
     }

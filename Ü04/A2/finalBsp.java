@@ -12,6 +12,10 @@ public class finalBsp {
         b = 30;
         System.out.println(b);
         // b = 50; gibt eine Fehlermeldung
+        
+        System.out.println();
+        System.out.println("Final: Variable ist nach der Initialisierung nicht mehr veränderbar (Konstante).");
+        
 
     }
 }
