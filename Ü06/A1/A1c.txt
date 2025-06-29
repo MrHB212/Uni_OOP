@@ -1,0 +1,8 @@
+Während abstrakte Klasse auch Variablen sowie bereits vollständig definierte methoden enthalten dürfen,
+dürfen bei Interfaces nur Methoden nur deklariert aber noch nicht vollständig implementiert worden sein.
+Ein Interface darf auch von mehreren anderen Interfaces erben, eine Unterklasse darf nur eine Superklasse haben.
+
+
+Interfaces bieten also Flexibilität, während Klassen Eindeutig sind in ihrer Vererbung. 
+Klassen stellen also konkrete Objekte dar, während Interfaces nur eine Ansammlung von abstrakten Methoden sind,
+die von Klassen implementiert werden können.

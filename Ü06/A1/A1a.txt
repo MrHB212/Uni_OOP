@@ -1,0 +1,9 @@
+Abstrakte Klassen sind Vorlagen um daraus Unterklassen zu definieren. Dabei kann man abtrakte Methoden definieren,
+deren Funktion von den Unterklassen definiert werfen muss. Man definiert also nur den kopf einer Methode und nicht 
+was die Methode tut.
+
+Beispiel: abstract public void testmethode(String eingabe, int keineAhnung);
+
+Die Unterklasse muss diese Methode fertigdefinieren. Ansonsten muss die Unterklasse selbst auch abstrakt sein.
+(Aufgabe 2: A_ital_essen ist eine abstrakte Klasse mit der abstrakten Methode zubereiten. Die Unterklasse B_pasta ist
+auch abstrakt und beinhaltet die methode zubereiten auch als abstrakt, da die Zubereitung von den Gerichten abhängen.)
